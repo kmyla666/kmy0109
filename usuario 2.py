@@ -6,6 +6,6 @@ usuarios_permitidos = {
 nombre_usuario = input('Ingrese su nombre de usuario: ')
 contraseña = input('Ingrese su contraseña: ')
 if nombre_usuario in usuarios_permitidos and usuarios_permitidos[nombre_usuario] == contraseña:
-    print('Acceso permitido')
+    print('Acceso permitido , bienvenido')
 else:
     print("Acceso denegado, intentelo nuevamente")
